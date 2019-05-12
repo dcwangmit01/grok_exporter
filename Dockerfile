@@ -20,7 +20,7 @@ RUN cd /tmp && \
 # grok_exporter: fetch source code
 RUN mkdir -p /go/src/github.com/fstab && \
     cd /go/src/github.com/fstab && \
-    git clone https://github.com/fstab/grok_exporter.git
+    git clone https://github.com/dcwangmit01/grok_exporter.git
 
 # Fetch Golang Dependencies
 RUN cd /go/src/github.com/fstab/grok_exporter && \
